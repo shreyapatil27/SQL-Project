@@ -92,7 +92,7 @@ update NashvilleData set SoldAsVacant='No' where SoldAsVacant='N'
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Remove Duplicates  Alex Query
+-- Remove Duplicates
 
 WITH RowNumCTE AS(
 Select *,
